@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryText">
+
+
+        <LinearLayout
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:scaleType="centerCrop"
+            android:background="@color/colorPrimaryText">
+
+            <!-- Alongamento 1 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento1"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento1" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 3 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento3"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento3" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 5 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento5"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento5"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 7 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento7"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento7"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 9 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento9"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento9"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 11 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento11"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento11"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryText">
+
+            <!-- Alongamento 2 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento2"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento2" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 4 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento4"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento4" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 6 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento6"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento6"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 8 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento8"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento8"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 10 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento10"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento10" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Alongamento 12 -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_alongamento12"
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/paddingCardView"
+                android:background="@color/colorPrimary"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_prev_alongamento12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/alongamento12" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
